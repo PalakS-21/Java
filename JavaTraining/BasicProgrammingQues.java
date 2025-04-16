@@ -1,6 +1,6 @@
 package JavaTraining;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class BasicProgrammingQues {
     public static void main(String[] args) {
