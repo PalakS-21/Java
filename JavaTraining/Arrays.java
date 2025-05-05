@@ -1,4 +1,7 @@
 package JavaTraining;
+
+import java.util.Scanner;
+
 //  import java.util.Scanner;
 public class Arrays {
        public static void main(String[] args) {
@@ -53,8 +56,8 @@ public class Arrays {
 // } 
 
 // int maximum = 0;
-// for(int i = 0; i < n; i++){
-//        if(arr[i]>n){
+// for(int i = 0; i < arr.length; i++){
+//        if(arr[i]>maximum){
 //               maximum = arr[i];
 //        }
 // }
@@ -185,36 +188,109 @@ public class Arrays {
 
 //FIND UNIQUE ELEMENTS FRON TWO AARAY.
 
-int[] arr1 = {1,2,3,4};
-int[] arr2 = {1,2,3,5};
-boolean found;
+// int[] arr1 = {1,2,3,4};
+// int[] arr2 = {1,2,3,5};
+// boolean found;
 
-for(int i = 0; i < arr1.length ; i++){
-       found = false;
-for(int j = 0 ; j < arr2.length ; j++){
-       if(arr1[i]==arr2[j]){
-          found = true;
-          break;
-       }
-}    
-       if(!found){
-              System.out.println(arr1[i] +" ");
-       }
-}
-       for(int i  = 0; i < arr2.length; i++){
-              boolean ffound = false;
-        for(int j  = 0; j < arr2.length;j++){
-              if(arr2[i]==arr1[i]){
-                     found = true;
-                     break;
-              }
-       }
-       if(!ffound){
-              System.out.println(arr2[i] +" ");
-       }
+// for(int i = 0; i < arr1.length ; i++){
+//        found = false;
+// for(int j = 0 ; j < arr2.length ; j++){
+//        if(arr1[i]==arr2[j]){
+//           found = true;
+//           break;
+//        }
+// }    
+//        if(!found){
+//               System.out.println(arr1[i] +" ");
+//        }
+// }
+//        for(int i  = 0; i < arr2.length; i++){
+//               boolean ffound = false;
+//         for(int j  = 0; j < arr2.length;j++){
+//               if(arr2[i]==arr1[i]){
+//                      found = true;
+//                      break;
+//               }
+//        }
+//        if(!ffound){
+//               System.out.println(arr2[i] +" ");
+//        }
        
-}
-}
+// }
+//_____________________________________________________________________________________________________________________________
+
+//LINEAR SEARCH.
+
+// int[] arr = {3,4,77,9,12,70,56,43};
+// int x = 112;
+// boolean flag = false;
+// for(int i=0; i<arr.length; i++){
+//        if(arr[i]==x){
+//               flag = true;
+//               break;
+//        }
+// }
+//        if(flag==false){
+//        System.out.println("element not found ");
+//        }
+//        else{
+//        System.out.println("element found ");
+//        }
+//___________________________________________________________________________________________________________________
+
+// FIND THE 2ND LARGEST ELEMENT IN THE ARRAY.
+
+// Scanner scn = new Scanner(System.in);
+// System.out.println("Enter the size of Array : ");
+// int n = scn.nextInt();
+// int[] arr = new int[n];
+
+// System.out.println("Enter the elements : ");
+// for(int i=0; i<arr.length; i++){
+//        arr[i] = scn.nextInt();
+// }
+// int max = 0;
+// for(int i=0; i<arr.length; i++){
+//        if(arr[i]>max){
+//               max = arr[i];
+//        }
+// }
+// System.out.println("largets element : " +max);
+
+// int maxSecond = 0;
+// for(int i=0; i<arr.length; i++){
+//        if(arr[i]>maxSecond  &&  arr[i] != max){
+//               maxSecond = arr[i];
+//        }
+// }
+// System.out.println("second largest element : "+maxSecond);
+//______________________________________________________________________________________________________
+
+//COUNT THE NUMBER OF ELEMENTS IN GIVEN ARRAY GREATER THAN A GIVEN NUMBER X.
+
+// Scanner sc = new Scanner(System.in);
+// System.out.println("Enter the size of array : ");
+// int n = sc.nextInt();
+// int[] arr = new int[n];
+// System.out.println("Enter the elements of array : ");
+
+// for(int i=0; i<arr.length; i++){
+//        arr[i] = sc.nextInt();
+// }
+
+// int x = 55;
+
+// int count = 0;
+// for(int i=0; i<arr.length; i++){
+//       if(arr[i]>x){
+//        count++;
+//       }
+// }
+// System.out.println("Number of elements greater than x : "+count);
+//_______________________________________________________________________________
+
+ 
+       }
 }
 
 
