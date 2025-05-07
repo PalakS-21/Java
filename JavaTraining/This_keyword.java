@@ -40,9 +40,9 @@ public class This_keyword {
         // obj.sum();
         // Student obj1 = new Student(20);
         // obj1.hi();
-        Constructor c1 = new Constructor();
-        Constructor c2 = new Constructor(5);
-        Constructor c3 = new Constructor(20,10);
+        // Constructor c1 = new Constructor();
+        // Constructor c2 = new Constructor(5);
+        // Constructor c3 = new Constructor(20,10);
         
     }
 }
